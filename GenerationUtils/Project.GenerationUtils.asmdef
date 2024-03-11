@@ -1,0 +1,20 @@
+{
+    "name": "Project.CellManager",
+    "rootNamespace": "",
+    "references": [
+        "GUID:032bd11c46e0cfb40bcec14264242e04",
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:d2a344dc463ca01469ef35ef6ab0eee0",
+        "GUID:9143d2872de58b8478f7457f76cc2793"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

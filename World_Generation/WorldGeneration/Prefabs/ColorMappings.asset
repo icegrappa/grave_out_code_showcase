@@ -1,0 +1,626 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c582fd49e5b6824eaf819e683f71047, type: 3}
+  m_Name: ColorMappings
+  m_EditorClassIdentifier: 
+  heightMapTexture: {fileID: 0}
+  heatMapTexture: {fileID: 0}
+  moistureMapTexture: {fileID: 0}
+  biomeMapTexture: {fileID: 0}
+  HeightOfTerrainColorColors:
+  - heightType: 1
+    color:
+      serializedVersion: 2
+      rgba: 4283440655
+  - heightType: 2
+    color:
+      serializedVersion: 2
+      rgba: 4284098575
+  - heightType: 4
+    color:
+      serializedVersion: 2
+      rgba: 4280270534
+  - heightType: 5
+    color:
+      serializedVersion: 2
+      rgba: 4279557170
+  - heightType: 6
+    color:
+      serializedVersion: 2
+      rgba: 4278231056
+  - heightType: 7
+    color:
+      serializedVersion: 2
+      rgba: 4286611584
+  - heightType: 8
+    color:
+      serializedVersion: 2
+      rgba: 4294967295
+  - heightType: 9
+    color:
+      serializedVersion: 2
+      rgba: 4291328030
+  HeightMapUShorts:
+  - heightType: 1
+    heightValue: 0
+  - heightType: 2
+    heightValue: 6553
+  - heightType: 4
+    heightValue: 19660
+  - heightType: 5
+    heightValue: 29490
+  - heightType: 6
+    heightValue: 39321
+  - heightType: 7
+    heightValue: 49151
+  - heightType: 8
+    heightValue: 65535
+  - heightType: 9
+    heightValue: 3276
+  WaterColors:
+  - waterType: 1
+    color:
+      serializedVersion: 2
+      rgba: 4294770642
+  - waterType: 2
+    color:
+      serializedVersion: 2
+      rgba: 4292189303
+  - waterType: 3
+    color:
+      serializedVersion: 2
+      rgba: 4289949249
+  HeatColors:
+  - heatType: 0
+    color:
+      serializedVersion: 2
+      rgba: 4294967040
+  - heatType: 1
+    color:
+      serializedVersion: 2
+      rgba: 4294967210
+  - heatType: 2
+    color:
+      serializedVersion: 2
+      rgba: 4286964992
+  - heatType: 3
+    color:
+      serializedVersion: 2
+      rgba: 4284809215
+  - heatType: 4
+    color:
+      serializedVersion: 2
+      rgba: 4278215935
+  - heatType: 5
+    color:
+      serializedVersion: 2
+      rgba: 4278193393
+  MoistureColors:
+  - moistureType: 0
+    color:
+      serializedVersion: 2
+      rgba: 4279340031
+  - moistureType: 1
+    color:
+      serializedVersion: 2
+      rgba: 4279760373
+  - moistureType: 2
+    color:
+      serializedVersion: 2
+      rgba: 4278255440
+  - moistureType: 3
+    color:
+      serializedVersion: 2
+      rgba: 4294967125
+  - moistureType: 4
+    color:
+      serializedVersion: 2
+      rgba: 4294919700
+  - moistureType: 5
+    color:
+      serializedVersion: 2
+      rgba: 4284743680
+  BiomeColors:
+  - biomeType: 9
+    color:
+      serializedVersion: 2
+      rgba: 4294967295
+  - biomeType: 0
+    color:
+      serializedVersion: 2
+      rgba: 4286765806
+  - biomeType: 1
+    color:
+      serializedVersion: 2
+      rgba: 4285452721
+  - biomeType: 2
+    color:
+      serializedVersion: 2
+      rgba: 4279860034
+  - biomeType: 8
+    color:
+      serializedVersion: 2
+      rgba: 4285563744
+  - biomeType: 6
+    color:
+      serializedVersion: 2
+      rgba: 4280830237
+  - biomeType: 3
+    color:
+      serializedVersion: 2
+      rgba: 4284735908
+  - biomeType: 5
+    color:
+      serializedVersion: 2
+      rgba: 4280509513
+  - biomeType: 7
+    color:
+      serializedVersion: 2
+      rgba: 4282282847
+  - biomeType: 4
+    color:
+      serializedVersion: 2
+      rgba: 4284133259
+  BumpColors:
+  - heightType: 1
+    color:
+      serializedVersion: 2
+      rgba: 4278190080
+  - heightType: 2
+    color:
+      serializedVersion: 2
+      rgba: 4278190080
+  - heightType: 4
+    color:
+      serializedVersion: 2
+      rgba: 4283256141
+  - heightType: 5
+    color:
+      serializedVersion: 2
+      rgba: 4285756275
+  - heightType: 6
+    color:
+      serializedVersion: 2
+      rgba: 4288256409
+  - heightType: 7
+    color:
+      serializedVersion: 2
+      rgba: 4290822336
+  - heightType: 8
+    color:
+      serializedVersion: 2
+      rgba: 4294967295
+  - heightType: 9
+    color:
+      serializedVersion: 2
+      rgba: 4278190080
+  BiomeHeightToVertexColorMappings:
+  - biomeType: 0
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190081
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199297
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208513
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217985
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227201
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236673
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245889
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255361
+  - biomeType: 1
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190082
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199298
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208514
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217986
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227202
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236674
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245890
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255362
+  - biomeType: 2
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190083
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199299
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208515
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217987
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227203
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236675
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245891
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255363
+  - biomeType: 3
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190084
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199300
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208516
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217988
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227204
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236676
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245892
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255364
+  - biomeType: 4
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190085
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199301
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208517
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217989
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227205
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236677
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245893
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255365
+  - biomeType: 5
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190086
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199302
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208518
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217990
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227206
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236678
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245894
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255366
+  - biomeType: 6
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190087
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199303
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208519
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217991
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227207
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236679
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245895
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255367
+  - biomeType: 7
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190088
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199304
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208520
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217992
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227208
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236680
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245896
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255368
+  - biomeType: 8
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190089
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199305
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208521
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217993
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227209
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236681
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245897
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255369
+  - biomeType: 9
+    heightToVertexColorMappings:
+    - minHeightValue: 0
+      maxHeightValue: 0.025
+      color:
+        serializedVersion: 2
+        rgba: 4278190090
+    - minHeightValue: 0.025
+      maxHeightValue: 0.05
+      color:
+        serializedVersion: 2
+        rgba: 4278199306
+    - minHeightValue: 0.05
+      maxHeightValue: 0.1
+      color:
+        serializedVersion: 2
+        rgba: 4278208522
+    - minHeightValue: 0.1
+      maxHeightValue: 0.3
+      color:
+        serializedVersion: 2
+        rgba: 4278217994
+    - minHeightValue: 0.3
+      maxHeightValue: 0.45
+      color:
+        serializedVersion: 2
+        rgba: 4278227210
+    - minHeightValue: 0.45
+      maxHeightValue: 0.6
+      color:
+        serializedVersion: 2
+        rgba: 4278236682
+    - minHeightValue: 0.6
+      maxHeightValue: 0.75
+      color:
+        serializedVersion: 2
+        rgba: 4278245898
+    - minHeightValue: 0.75
+      maxHeightValue: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255370

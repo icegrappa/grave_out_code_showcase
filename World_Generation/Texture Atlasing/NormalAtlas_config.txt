@@ -1,0 +1,92 @@
+Atlas Configuration
+Padding: 2
+Biome: Desert
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: Savanna
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: TropicalRainforest
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: Grassland
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: Woodland
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: SeasonalForest
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: TemperateRainforest
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: BorealForest
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: Tundra
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal
+Biome: Ice
+  Terrain: DeepWater, Texture: Grass2_Normal
+  Terrain: River, Texture: Grass2_Normal
+  Terrain: ShallowWater, Texture: Grass2_Normal
+  Terrain: Sand, Texture: Grass2_Normal
+  Terrain: Grass, Texture: Grass2_Normal
+  Terrain: Forest, Texture: Grass2_Normal
+  Terrain: Rock, Texture: Grass2_Normal
+  Terrain: Snow, Texture: Grass2_Normal

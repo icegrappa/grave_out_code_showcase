@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: blended
+  m_Shader: {fileID: 4800000, guid: e308f061d83a2f6419b3110db82eaac1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e5672565228f6af488afce62640fc428, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendFalloff0: 0.537
+    - _BlendFalloff1: 0.631
+    - _BlendFalloff2: 0.454
+    - _BlendFalloff3: 0.592
+    - _BlendFalloff4: 0.588
+    - _BlendFalloff5: 0.356
+    - _BlendFalloff6: 0.258
+    - _BlendFalloff7: 0.219
+    - _BlendSpread: 0.056
+    - _BlendSpread0: 0
+    - _BlendSpread1: 0
+    - _BlendSpread2: 0.053
+    - _BlendSpread3: 0
+    - _BlendSpread4: 0
+    - _BlendSpread5: 0.936
+    - _BlendSpread6: 0
+    - _BlendSpread7: 0
+    - _BlendStrength: 0.425
+    - _BlendStrength0: 0
+    - _BlendStrength1: 0
+    - _BlendStrength2: 0.886
+    - _BlendStrength3: 1
+    - _BlendStrength4: 0
+    - _BlendStrength5: 0
+    - _BlendStrength6: 0
+    - _BlendStrength7: 1
+    - _Glossiness: 0.919
+    - _HeightThreshold0: 0.075
+    - _HeightThreshold1: 0.069
+    - _HeightThreshold2: 0.177
+    - _HeightThreshold3: 0.147
+    - _HeightThreshold4: 0.205
+    - _HeightThreshold5: 0.302
+    - _HeightThreshold6: 0.51
+    - _Metallic: 0.898
+    - _Padding: 1
+    m_Colors:
+    - _Offset0: {r: 290.2, g: 300, b: 0, a: 0}
+    - _Offset1: {r: 284.5, g: 300, b: 0, a: 0}
+    - _Offset2: {r: 300, g: 300, b: 0, a: 0}
+    - _Offset3: {r: 306.5, g: 300, b: 0.89, a: 1.39}
+    - _Offset4: {r: 1009.3, g: 300, b: 0, a: 0}
+    - _Offset5: {r: 280.2, g: 300, b: 0, a: 0}
+    - _Offset6: {r: 303.49, g: 300, b: 0, a: 0}
+    - _Offset7: {r: 65.8, g: 5.32, b: 0, a: 0}
+    - _Tiling0: {r: 310.7, g: 300, b: 0, a: 0}
+    - _Tiling1: {r: 529.18, g: 300, b: 0, a: 0}
+    - _Tiling2: {r: 307.5, g: 300, b: 0, a: 0}
+    - _Tiling3: {r: 424.2, g: 300, b: 0, a: 0}
+    - _Tiling4: {r: 314.2, g: 300, b: 0, a: 0}
+    - _Tiling5: {r: 311.1, g: 300, b: 0, a: 0}
+    - _Tiling6: {r: 311.5, g: 300, b: 0, a: 0}
+    - _Tiling7: {r: 239.4, g: 300, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &7821138106435564202
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

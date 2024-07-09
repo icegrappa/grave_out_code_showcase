@@ -1,0 +1,92 @@
+Atlas Configuration
+Padding: 39
+Biome: Desert
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: Savanna
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: TropicalRainforest
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: Grassland
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: Woodland
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: SeasonalForest
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: TemperateRainforest
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: BorealForest
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: Tundra
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1
+Biome: Ice
+  Terrain: DeepWater, Texture: Rock_Coral_Texture_01 1
+  Terrain: River, Texture: Grass_Clovers_Texture_01 1
+  Terrain: ShallowWater, Texture: Rock_Texture_01 1
+  Terrain: Sand, Texture: Sand_Debris_Texture_01 1
+  Terrain: Grass, Texture: Grass_Debris_Texture_01 1
+  Terrain: Forest, Texture: Grass_Texture_01 1
+  Terrain: Rock, Texture: Sand_Texture_02 1
+  Terrain: Snow, Texture: Sand_Wavy_Texture_01 1

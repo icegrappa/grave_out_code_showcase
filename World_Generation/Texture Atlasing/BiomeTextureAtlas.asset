@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353159e604e7f38408bef9fc7ffcddb3, type: 3}
+  m_Name: BiomeTextureAtlas
+  m_EditorClassIdentifier: 
+  biomes:
+  - biomeType: 1
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 2
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 3
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 4
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 5
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 6
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 7
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 8
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 9
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  - biomeType: 10
+    textures:
+    - {fileID: 2800000, guid: 2934060171d4468479bc41ca5d0d7094, type: 3}
+    - {fileID: 2800000, guid: a586314e9ebbeda4594c9eebd2bf6623, type: 3}
+    - {fileID: 2800000, guid: aa6d16ea7117e6f489dcde5691084bde, type: 3}
+    - {fileID: 2800000, guid: 5855541c1c205ac468dba180266adce6, type: 3}
+    - {fileID: 2800000, guid: a52d4c8b7e495b54ea4b2792da0d8c05, type: 3}
+    - {fileID: 2800000, guid: 09b7ae86e3dc675469dc391e593f3947, type: 3}
+    - {fileID: 2800000, guid: 6760812b492dbcf468e35c3c16a3c35c, type: 3}
+    - {fileID: 2800000, guid: db21adf528987b447b6334de58e0fc7e, type: 3}
+  textureType: 0
+  padding: 39
+  savePath: Assets/Plugins/World_Generation/Texture Atlasing/

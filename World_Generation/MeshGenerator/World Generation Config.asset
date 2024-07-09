@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad6795206421074880ca09348e2fbc2, type: 3}
+  m_Name: World Generation Config
+  m_EditorClassIdentifier: 
+  Biomes:
+  - Biome: {fileID: 11400000, guid: c6f10b4761dc79349aa425d93857bdfc, type: 2}
+    Weighting: 0.3
+  - Biome: {fileID: 11400000, guid: e2ddc0552e07574408d8906eff2137e5, type: 2}
+    Weighting: 0.199
+  - Biome: {fileID: 11400000, guid: eb2559bfddcb65748b838b14ba223d0c, type: 2}
+    Weighting: 0.1
+  - Biome: {fileID: 11400000, guid: 9178476065e26d64792476d3367455b7, type: 2}
+    Weighting: 0.037
+  - Biome: {fileID: 11400000, guid: 06e41840b9c5907489132a777e1a3ff4, type: 2}
+    Weighting: 0.034
